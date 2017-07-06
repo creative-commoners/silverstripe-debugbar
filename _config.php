@@ -114,7 +114,7 @@ if (!function_exists('d')) {
                 }
             } else {
                 if ($varname && is_string($arg) && strpos($varname, 'sql') !== false) {
-                    echo JdornSqlFormatter::format($arg);
+                    echo SqlFormatter::format($arg);
                 } else {
                     dump($arg);
                 }

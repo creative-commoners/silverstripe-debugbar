@@ -125,7 +125,8 @@ as well.
 
 Third party
 ==================
-- [SqlFormatted](https://github.com/jdorn/sql-formatter)
+- [jdorn/sql-formatter](https://github.com/jdorn/sql-formatter)
+- [maximebf/debugbar](https://github.com/maximebf/php-debugbar)
 
 Compatibility
 ==================

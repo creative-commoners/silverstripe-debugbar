@@ -19,7 +19,8 @@
         "php": ">=5.3.3",
         "silverstripe/framework": "~3.2",
         "silverstripe/siteconfig": "~3.2",
-        "maximebf/debugbar": "^1.13"
+        "maximebf/debugbar": "^1.13",
+        "jdorn/sql-formatter": "^1.2"
     },
     "extra": {
         "installer-name": "debugbar",

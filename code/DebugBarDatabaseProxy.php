@@ -145,7 +145,7 @@ class DebugBarDatabaseProxy extends SS_Database
             $result       = $callback($sql);
             $endtime      = round(microtime(true) - $starttime, 4);
 
-            $formattedSql = JdornSqlFormatter::format($sql);
+            $formattedSql = SqlFormatter::format($sql);
             $rows         = $result->numRecords();
             echo '<pre>The following query took <b>'.$endtime.'</b>s an returned <b>'.$rows."</b> row(s) \n";
             echo 'Triggered by: <i>'.$this->findSource().'</i></pre>';

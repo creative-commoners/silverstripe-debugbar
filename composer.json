@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=5.6",
-        "silverstripe/framework": "dev-pulls/4.0/fix-mysql-gone-away",
+        "silverstripe/framework": "dev-pulls/4.0/fix-mysql-gone-away as 4.0.x-dev",
         "silverstripe/siteconfig": "^4.0@dev",
         "silverstripe/admin": "^1.0@dev",
         "maximebf/debugbar": "^1.13",

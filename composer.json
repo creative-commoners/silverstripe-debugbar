@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=5.6",
-        "silverstripe/framework": "^4.0@dev",
+        "silverstripe/framework": "dev-pulls/4.0/fix-mysql-gone-away",
         "silverstripe/siteconfig": "^4.0@dev",
         "silverstripe/admin": "^1.0@dev",
         "maximebf/debugbar": "^1.13",
@@ -44,6 +44,9 @@
     "scripts": {
         "lint": "vendor/bin/phpcs code/ tests/",
         "lint-clean": "vendor/bin/phpcbf code/ tests/"
+    },
+    "repositories": [
+        {"type": "vcs", "url": "git@github.com:creative-commoners/silverstripe-framework.git"}
     },
     "minimum-stability": "dev",
     "prefer-stable": true

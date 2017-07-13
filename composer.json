@@ -47,7 +47,7 @@
     },
     "repositories": [
         {"type": "vcs", "url": "git@github.com:creative-commoners/silverstripe-framework.git"}
-    },
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }

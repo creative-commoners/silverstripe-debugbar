@@ -1,6 +1,7 @@
 # SilverStripe DebugBar module
 
 [![Build Status](https://travis-ci.org/lekoala/silverstripe-debugbar.svg?branch=master)](https://travis-ci.org/lekoala/silverstripe-debugbar/)
+[![SilverStripe supported module](https://img.shields.io/badge/silverstripe-supported-0071C4.svg)](https://www.silverstripe.org/software/addons/silverstripe-commercially-supported-module-list/)
 [![scrutinizer](https://scrutinizer-ci.com/g/lekoala/silverstripe-debugbar/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/lekoala/silverstripe-debugbar/)
 [![Code coverage](https://codecov.io/gh/lekoala/silverstripe-debugbar/branch/master/graph/badge.svg)](https://codecov.io/gh/lekoala/silverstripe-debugbar)
 
